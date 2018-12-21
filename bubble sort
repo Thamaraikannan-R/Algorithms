@@ -1,0 +1,11 @@
+list1=[2,1,5,3,44,32,12,0]
+l=len(list1)-1
+temp=0
+while(temp<l):
+    a=0
+    while(a<l):
+        if list1[a]>list1[a+1]:
+            list1[a] ,list1[a + 1]=list1[a+1],list1[a] #swaping
+        a=a+1
+    l=l-1
+print(list1)
