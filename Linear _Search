@@ -1,0 +1,13 @@
+def liner(list1,value):
+    temp=0
+    result=False
+    while temp<len(list1):
+        if list1[temp]==value:
+            return True
+        else:
+            temp=temp+1
+    return result
+
+l = [64, 34, 25, 12, 22, 11, 90]
+value=91
+print(liner(l,value))
